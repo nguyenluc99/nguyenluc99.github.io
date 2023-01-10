@@ -8,6 +8,45 @@
 		<style type="text/css">.popin-overlay.hidden,.popin-global.hidden,.notification.hidden{visibility:hidden}</style>
 
 <script src="https://www.google.com/recaptcha/api.js?render=6LeJO3kiAAAAAFQzknEpqPex6i52lIyimVLUoA3K" async defer></script><script>window._recaptcha_enabled = true;window._recaptcha_site_key = "6LeJO3kiAAAAAFQzknEpqPex6i52lIyimVLUoA3K";</script>
+<style>
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  /* left: 0;
+  background-color: #111; */
+}
+
+/* Control the right side */
+.right {
+  /* right: 0;
+  background-color: red; */
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+</style>
 </head>
 <body class="p25">
         <div id="fb-root"></div>
@@ -23,7 +62,41 @@ class="trademark">
 </header>
 <script type="text/javascript">
 </script>
-Hello Im LucNV
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      },
+        loader: {
+            load: ['input/tex-base', 'output/svg', 'ui/menu', '[tex]/require']
+        }
+    };
+    </script>
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+    </script>
+
+
+Hello Im LucNV $x^2+1=0, \sum_1^2 \dfrac{1}{2} $
+$$ \sum_1^2 \dfrac{1}{2} $$
+
+Hey there
+
+<div class="split left">
+    <div class="centered">
+      <p>Some text.</p>
+    </div>
+  </div>
+  
+  <div class="split right">
+    <div class="centered">
+      <p>Some text here too.</p>
+    </div>
+  </div>
+  ádasda
 
 	</div></body>
 </html>
