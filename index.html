@@ -65,150 +65,153 @@ class="trademark">
     <script id="MathJax-script" async
       src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
     </script>
-        <h2>About me:</h2>
-        <table>
-            <!-- <tr>
-            <th>Company</th>
-            <th>Contact</th>
-            <th>Country</th>
-            </tr> -->
-            <tr>
-                <td>Fullname</td>
-                <td>Nguyen Van Luc</td>
-            </tr>
-            <tr>
-                <td>Email</td>
-                <td>nguyenlucitbk@gmail.com</td>
-            </tr>
-            <tr>
-                <td>Mobile phone&emsp;&emsp;</td>
-                <td>(+84) 375 550 576</td>
-            </tr>
-            <tr>
-                <td>Address</td>
-                <td>Doi Can St, Ba Dinh, Hanoi, Vietnam</td>
-            </tr>
-            <tr>
-                <td>LinkedIn</td>
-                <td><a href="https://www.linkedin.com/in/lucnguyen-ict/">linkedin.com/in/lucnguyen-ict</a></td>
-            </tr>
-            <tr>
-                <td>GitHub</td>
-                <td><a href="https://github.com/nguyenluc99/">github.com/nguyenluc99/</a></td>
-            </tr>
-            <tr>
-                <td>My CV</td>
-                <td><a href="docs/myCV.pdf">CV_NguyenVanLuc</a></td>
-            </tr>
-        </table>
 
     <div>
         <div id="col-1">
-            <h2>My current research:</h2> 
-            Hey there, I am Luc, a computer science undergraduate of Hanoi University of Science and Technology.<br>
-            My working interest is the intersection of Combinatorial Mathematics and Computer Science and Graph Theory, which focuses on many optimization problems.
-
-            I am working in Information Theory field. One of my research interest is about Constrained system. Currently I am currently working with two enumerating problems:
-
-            <div>
-                <ul>
-                    <li>Enumerate $(b,k)$ locally-constrained code using generating function. 
-                        <ul>
-                            <li>
-                                For example, given $b=3, k=4$, the generating function counting number of locally-constrained de Bruijn sequences of length $n$ is given by:
-                                $$ f(x) = \sum a_nx^n = \dfrac{2x^8+3x^7+4x^6+5x^5+5x^4+4x^3+3x^2+2x+1}{-x^7-2x^6-3x^5-3x^4-2x^3-x^2+1} $$
-                            </li>
-                            <li>
-                                Implementation can be found at: <a href="https://github.com/nguyenluc99/GJ_LC_deBruijnCode">github.com/nguyenluc99/GJ_LC_deBruijnCode</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>Enumerate $(u,d,k)$ Dyck codewords in which the code starts and ends at height 0, up steps increase height by $u$, down steps decrease height by $d$, height is always bounded by $0$ and $k$.
-                        <ul>
-                            The generating function in case either $u=1, d=m$ or $u=m, d=1$ is:
-                            $$
-                                g_k(x) = \sum a_nx^n = \dfrac{p_k}{p_{k+1}}
-                            $$
-                            in which 
-                            $$
-                                p_v(x) = \sum_{0 \leq u \leq v, m+1|u } \begin{pmatrix} v - \dfrac{um}{m+1} \\ \dfrac{u}{m+1} \end{pmatrix} (-1)^{\frac{u}{m+1}}\times{x^u}
-                            $$
-                        </ul>        
-                    </li>
-                    Further works on both fields are still inprogress.
-                </ul>
-            </div>
-
+            <h2>About me:</h2>
+            <table>
+                <!-- <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+                </tr> -->
+                <tr>
+                    <td>Fullname</td>
+                    <td>Nguyen Van Luc</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>nguyenlucitbk@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Mobile phone&emsp;&emsp;</td>
+                    <td>(+84) 375 550 576</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>Doi Can St, Ba Dinh, Hanoi, Vietnam</td>
+                </tr>
+                <tr>
+                    <td>LinkedIn</td>
+                    <td><a href="https://www.linkedin.com/in/lucnguyen-ict/">linkedin.com/in/lucnguyen-ict</a></td>
+                </tr>
+                <tr>
+                    <td>GitHub</td>
+                    <td><a href="https://github.com/nguyenluc99/">github.com/nguyenluc99/</a></td>
+                </tr>
+                <tr>
+                    <td>My CV</td>
+                    <td><a href="docs/myCV.pdf">CV_NguyenVanLuc</a></td>
+                </tr>
+            </table>
         </div>
         <div id="col-2">
             <img  class="circular--square" src="./nvl.jpeg" alt="alt text" title="image Title" width="70%"/>
         </div>
     </div>
-    <div id="col-1" style="width: 100%;">
-        <h2>My background:</h2> 
-        <h3>Education</h3>
-        <table>
-            <!-- <tr>
-            <th>Company</th>
-            <th>Contact</th>
-            <th>Country</th>
-            </tr> -->
-            <tr>
-            <td>2017 - Present</td>
-            <td>Computer Science, Hanoi University of Science and Technology</td>
-            <!-- <td>Germany</td> -->
-            </tr>
-            <tr>
-            <td>September 2020 - January 2021</td>
-            <td>Computer Science, Uppsala University</td>
-            <!-- <td>Mexico</td> -->
-            </tr>
-        </table>
-        <h3>Working experiences</h3>
-        <table>
-            <tr>
-            <th>Duration</th>
-            <th>Title</th>
-            <th>Company</th>
-            </tr>
-            <tr>
-            <td>Apr 2022 - Present</td>
-            <td>C/C++ Software Engineer OJT</td>
-            <td>Toshiba Software Development Vietnam (TSDV)</td>
-            </tr>
-            <tr>
-            <td>Mar 2021 - Sep 2021</td>
-            <td>Machine Learning Engineer</td>
-            <td>Eastgate Software JSC</td>
-            </tr>
-            <tr>
-            <td>Sep 2019 – Feb 2020</td>
-            <td>Machine Learning Engineer</td>
-            <td>FAMILY TECHNOLOGY COMPANY LIMITED</td>
-            </tr>
-        </table>
 
-        <h2>Interests:</h2> 
-        <table>
-            <tr>
-                <td> - </td>
-                <td>Information theory and constrained code research</td>
-            </tr>
-            <tr>
-                <td> - </td>
-                <td>Learn mathematics, combinatorics and graph theory</td>
-            </tr>
-            <tr>
-                <td> - </td>
-                <td>Traveling, photography, piano, reading book, helping people</td>
-            </tr>
-            <tr>
-                <td> - </td>
-                <td>Connect with people from other cultures and the world</td>
-            </tr>
-        </table>
+    <div style="padding-right: 10%;">
+        <h2>My current research:</h2> 
+        Hey there, I am Luc, a computer science undergraduate of Hanoi University of Science and Technology.<br>
+        My working interest is the intersection of Combinatorial Mathematics and Computer Science and Graph Theory, which focuses on many optimization problems.
+
+        I am working in Information Theory field. One of my research interest is about Constrained system. Currently I am currently working with two enumerating problems:
+
+        <div>
+            <ul>
+                <li>Enumerate $(b,k)$ locally-constrained code using generating function. 
+                    <ul>
+                        <li>
+                            For example, given $b=3, k=4$, the generating function counting number of locally-constrained de Bruijn sequences of length $n$ is given by:
+                            $$ f(x) = \sum a_nx^n = \dfrac{2x^8+3x^7+4x^6+5x^5+5x^4+4x^3+3x^2+2x+1}{-x^7-2x^6-3x^5-3x^4-2x^3-x^2+1} $$
+                        </li>
+                        <li>
+                            Implementation can be found at: <a href="https://github.com/nguyenluc99/GJ_LC_deBruijnCode">github.com/nguyenluc99/GJ_LC_deBruijnCode</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>Enumerate $(u,d,k)$ Dyck codewords in which the code starts and ends at height 0, up steps increase height by $u$, down steps decrease height by $d$, height is always bounded by $0$ and $k$.
+                    <ul>
+                        The generating function in case either $u=1, d=m$ or $u=m, d=1$ is:
+                        $$
+                            g_k(x) = \sum a_nx^n = \dfrac{p_k}{p_{k+1}}
+                        $$
+                        in which 
+                        $$
+                            p_v(x) = \sum_{0 \leq u \leq v, m+1|u } \begin{pmatrix} v - \dfrac{um}{m+1} \\ \dfrac{u}{m+1} \end{pmatrix} (-1)^{\frac{u}{m+1}}\times{x^u}
+                        $$
+                    </ul>        
+                </li>
+                Further works on both fields are still inprogress.
+            </ul>
+        </div>
+
+        <div id="col-1" style="width: 100%;">
+            <h2>My background:</h2> 
+            <h3>Education</h3>
+            <table>
+                <!-- <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+                </tr> -->
+                <tr>
+                <td>2017 - Present&emsp;&emsp;</td>
+                <td>Computer Science, Hanoi University of Science and Technology</td>
+                <!-- <td>Germany</td> -->
+                </tr>
+                <tr>
+                <td>September 2020 - January 2021&emsp;&emsp;</td>
+                <td>Computer Science, Uppsala University</td>
+                <!-- <td>Mexico</td> -->
+                </tr>
+            </table>
+            <h3>Working experiences</h3>
+            <table>
+                <tr>
+                <th>Duration</th>
+                <th>Title</th>
+                <th>Company</th>
+                </tr>
+                <tr>
+                <td>Apr 2022 - Present&emsp;&emsp;</td>
+                <td>C/C++ Software Engineer OJT&emsp;&emsp;</td>
+                <td>Toshiba Software Development Vietnam (TSDV)</td>
+                </tr>
+                <tr>
+                <td>Mar 2021 - Sep 2021&emsp;&emsp;</td>
+                <td>Machine Learning Engineer&emsp;&emsp;</td>
+                <td>Eastgate Software JSC</td>
+                </tr>
+                <tr>
+                <td>Sep 2019 – Feb 2020&emsp;&emsp;</td>
+                <td>Machine Learning Engineer&emsp;&emsp;</td>
+                <td>FAMILY TECHNOLOGY COMPANY LIMITED</td>
+                </tr>
+            </table>
+
+            <h2>Interests:</h2> 
+            <table>
+                <tr>
+                    <td> - </td>
+                    <td>Information theory and constrained code research</td>
+                </tr>
+                <tr>
+                    <td> - </td>
+                    <td>Learn mathematics, combinatorics and graph theory</td>
+                </tr>
+                <tr>
+                    <td> - </td>
+                    <td>Traveling, photography, piano, reading book, helping people</td>
+                </tr>
+                <tr>
+                    <td> - </td>
+                    <td>Connect with people from other cultures and the world</td>
+                </tr>
+            </table>
 
 
+        </div>
     </div>
 <br>
 </div>
