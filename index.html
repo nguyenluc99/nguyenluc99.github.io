@@ -5,50 +5,37 @@
     <!--<![endif]-->
 
 <head>
-		<style type="text/css">.popin-overlay.hidden,.popin-global.hidden,.notification.hidden{visibility:hidden}</style>
+<style type="text/css">.popin-overlay.hidden,.popin-global.hidden,.notification.hidden{visibility:hidden}</style>
 
-<script src="https://www.google.com/recaptcha/api.js?render=6LeJO3kiAAAAAFQzknEpqPex6i52lIyimVLUoA3K" async defer></script><script>window._recaptcha_enabled = true;window._recaptcha_site_key = "6LeJO3kiAAAAAFQzknEpqPex6i52lIyimVLUoA3K";</script>
+<!-- <script src="https://www.google.com/recaptcha/api.js?render=6LeJO3kiAAAAAFQzknEpqPex6i52lIyimVLUoA3K" async defer></script><script>window._recaptcha_enabled = true;window._recaptcha_site_key = "6LeJO3kiAAAAAFQzknEpqPex6i52lIyimVLUoA3K";</script> -->
 <style>
-/* Split the screen in half */
-.split {
+#col-1 {
+  position: relative;
+  width: 70%;
+  float: left;
   height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
+  /* background-color: #282828; */
+  z-index: 1010101010
 }
 
-/* Control the left side */
-.left {
-  /* left: 0;
-  background-color: #111; */
+#col-2 {
+  position: relative;
+  width: 30%;
+  float: right;
+  height: 100%;
+  /* background-color: #0080ff; */
+  z-index: 1010101010
 }
-
-/* Control the right side */
-.right {
-  /* right: 0;
-  background-color: red; */
-}
-
-/* If you want the content centered horizontally and vertically */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-/* Style the image inside the centered container, if needed */
-.centered img {
-  width: 150px;
-  border-radius: 50%;
+.circular--square { border-radius: 50%; }
+body {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  padding-left: 10%;
+  /* padding-right: 5%; */
 }
 </style>
 </head>
-<body class="p25">
+<body class="p25" style="background-color: #fff8e8;">
         <div id="fb-root"></div>
         <div class="sp-global"><div
 id="sp-vue-container"> <script>window.header_config  = {"searchFields":{"subject":"","city":"","lat":null,"lng":null},"trademark":[{"url":"https://c.superprof.com/style/images/logos/superprof.svg","href":"/","color":"pink","alt":"Privatundervisning med Superprof","width":120,"height":24}],"stickyThresoldDOMPath":".search-box-v3-2","elementsToHide":{"0":[1,3],"1":[3]},"elementsToHideMobile":{},"linksToHide":[4,5,12,13,14,10,6],"loggedIn":false,"presetSubjects":[],"presetCoordonate":null,"presetLinks":{"ELEMENTS":{"0":"/","2":"/ge-privatundervisning/","3":"#","4":"https://www.superprof.se/hjalp/","5":"/dashbord.html/favoriter/","6":"https://www.superprof.se/kop-superkort","7":"https://www.superprof.se/dashbord.html/presentkort"},"MENU":{"8":"https://www.superprof.se/hjalp/","9":"/ge-privatundervisning/"}},"labels":{"search_engine_main_text":"Vad vill du l\u00e4ra dig?","search_engine_search_fields":{"subject":"\u00c4mne","city":"Adress, ort eller omr\u00e5de?"},"search_engine_geolocation":{"success":"Lokalisera din enhet","error":"Din plats hittades inte. Kontrollera din adress. Du kan maila oss p\u00e5 caroline@superprof.com platsen du valt \u00e4r korrekt."},"search_engine_city_options_localize":"S\u00f6k i n\u00e4rheten av mig","search_engine_city_options_online":"Online","search_engine_submit_mobile":"S\u00f6k","search_engine_dropdown_mobile_subject_title":"Popul\u00e4ra \u00e4mnen","search_engine_dropdown_mobile_city_title":"topp stad","buttons_links_landing_teacher":"Ge undervisning","buttons_links_create_ad":"Skapa en annons","buttons_links_give_gift_card":"Erbjud ett kort","buttons_links_use_gift_card":"Anv\u00e4nd mitt kort","buttons_links_signup":"Inloggning","menu_signin":"Inloggning","menu_signup":"Registrering","menu_links_search":"S\u00f6k efter en l\u00e4rare","menu_links_help":"Hj\u00e4lp"},"themeLayout":"ABSOLUTE_WITH_STICKY_NO_MAIN_BG"}</script> 
@@ -78,25 +65,158 @@ class="trademark">
     <script id="MathJax-script" async
       src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
     </script>
+        <h2>About me:</h2>
+        <table>
+            <!-- <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+            </tr> -->
+            <tr>
+                <td>Fullname</td>
+                <td>Nguyen Van Luc</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>nguyenlucitbk@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Mobile phone&emsp;&emsp;</td>
+                <td>(+84) 375 550 576</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>Doi Can St, Ba Dinh, Hanoi, Vietnam</td>
+            </tr>
+            <tr>
+                <td>LinkedIn</td>
+                <td><a href="https://www.linkedin.com/in/lucnguyen-ict/">linkedin.com/in/lucnguyen-ict</a></td>
+            </tr>
+            <tr>
+                <td>GitHub</td>
+                <td><a href="https://github.com/nguyenluc99/">github.com/nguyenluc99/</a></td>
+            </tr>
+            <tr>
+                <td>My CV</td>
+                <td><a href="docs/myCV.pdf">CV_NguyenVanLuc</a></td>
+            </tr>
+        </table>
 
+    <div>
+        <div id="col-1">
+            <h2>My current research:</h2> 
+            Hey there, I am Luc, a computer science undergraduate of Hanoi University of Science and Technology.<br>
+            My working interest is the intersection of Combinatorial Mathematics and Computer Science and Graph Theory, which focuses on many optimization problems.
 
-Hello Im LucNV $x^2+1=0, \sum_1^2 \dfrac{1}{2} $
-$$ \sum_1^2 \dfrac{1}{2} $$
+            I am working in Information Theory field. One of my research interest is about Constrained system. Currently I am currently working with two enumerating problems:
 
-Hey there
+            <div>
+                <ul>
+                    <li>Enumerate $(b,k)$ locally-constrained code using generating function. 
+                        <ul>
+                            <li>
+                                For example, given $b=3, k=4$, the generating function counting number of locally-constrained de Bruijn sequences of length $n$ is given by:
+                                $$ f(x) = \sum a_nx^n = \dfrac{2x^8+3x^7+4x^6+5x^5+5x^4+4x^3+3x^2+2x+1}{-x^7-2x^6-3x^5-3x^4-2x^3-x^2+1} $$
+                            </li>
+                            <li>
+                                Implementation can be found at: <a href="https://github.com/nguyenluc99/GJ_LC_deBruijnCode">github.com/nguyenluc99/GJ_LC_deBruijnCode</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Enumerate $(u,d,k)$ Dyck codewords in which the code starts and ends at height 0, up steps increase height by $u$, down steps decrease height by $d$, height is always bounded by $0$ and $k$.
+                        <ul>
+                            The generating function in case either $u=1, d=m$ or $u=m, d=1$ is:
+                            $$
+                                g_k(x) = \sum a_nx^n = \dfrac{p_k}{p_{k+1}}
+                            $$
+                            in which 
+                            $$
+                                p_v(x) = \sum_{0 \leq u \leq v, m+1|u } \begin{pmatrix} v - \dfrac{um}{m+1} \\ \dfrac{u}{m+1} \end{pmatrix} (-1)^{\frac{u}{m+1}}\times{x^u}
+                            $$
+                        </ul>        
+                    </li>
+                    Further works on both fields are still inprogress.
+                </ul>
+            </div>
 
-<div class="split left">
-    <div class="centered">
-      <p>Some text.</p>
+        </div>
+        <div id="col-2">
+            <img  class="circular--square" src="./nvl.jpeg" alt="alt text" title="image Title" width="70%"/>
+        </div>
     </div>
-  </div>
-  
-  <div class="split right">
-    <div class="centered">
-      <p>Some text here too.</p>
-    </div>
-  </div>
-  ádasda
+    <div id="col-1" style="width: 100%;">
+        <h2>My background:</h2> 
+        <h3>Education</h3>
+        <table>
+            <!-- <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+            </tr> -->
+            <tr>
+            <td>2017 - Present</td>
+            <td>Computer Science, Hanoi University of Science and Technology</td>
+            <!-- <td>Germany</td> -->
+            </tr>
+            <tr>
+            <td>September 2020 - January 2021</td>
+            <td>Computer Science, Uppsala University</td>
+            <!-- <td>Mexico</td> -->
+            </tr>
+        </table>
+        <h3>Working experiences</h3>
+        <table>
+            <tr>
+            <th>Duration</th>
+            <th>Title</th>
+            <th>Company</th>
+            </tr>
+            <tr>
+            <td>Apr 2022 - Present</td>
+            <td>C/C++ Software Engineer OJT</td>
+            <td>Toshiba Software Development Vietnam (TSDV)</td>
+            </tr>
+            <tr>
+            <td>Mar 2021 - Sep 2021</td>
+            <td>Machine Learning Engineer</td>
+            <td>Eastgate Software JSC</td>
+            </tr>
+            <tr>
+            <td>Sep 2019 – Feb 2020</td>
+            <td>Machine Learning Engineer</td>
+            <td>FAMILY TECHNOLOGY COMPANY LIMITED</td>
+            </tr>
+        </table>
 
-	</div></body>
+        <h2>Interests:</h2> 
+        <table>
+            <tr>
+                <td> - </td>
+                <td>Information theory and constrained code research</td>
+            </tr>
+            <tr>
+                <td> - </td>
+                <td>Learn mathematics, combinatorics and graph theory</td>
+            </tr>
+            <tr>
+                <td> - </td>
+                <td>Traveling, photography, piano, reading book, helping people</td>
+            </tr>
+            <tr>
+                <td> - </td>
+                <td>Connect with people from other cultures and the world</td>
+            </tr>
+        </table>
+
+
+    </div>
+<br>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</body>
 </html>
