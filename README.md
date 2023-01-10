@@ -1,7 +1,23 @@
+<table border="0">
+ <!-- <tr>
+    <td><b style="font-size:30px">Title</b></td>
+    <td><b style="font-size:30px">Title 2</b></td>
+ </tr> -->
+ <tr>
+    <td>
+    
 # nguyenluc99.github.io
 Hey there, I am Luc, a computer science undergraduate of Hanoi University of Science and Technology.
 
+</td>
+    <td><img src="./nvl.jpeg" alt="alt text" title="image Title" 
+    /></td>
+ </tr>
+</table>
+
 ## Current research:
+
+My working interest is the intersection of Combinatorial Mathematics and Computer Science and Graph Theory, which focuses on many optimization problems.
 
 I am working in Information Theory field. One of my research interest is about Constrained system. Currently I am currently working with two enumerating problems:
 
@@ -16,3 +32,6 @@ I am working in Information Theory field. One of my research interest is about C
     $$
         g_k(x) = \sum a_nx^n = \dfrac{p_k}{p_{k+1}} = \dfrac{\sum_{0 \leq u \leq k, m+1|u } \begin{pmatrix} k - \dfrac{um}{m+1} \\ \dfrac{u}{m+1} \end{pmatrix} (-1)^{\frac{u}{m+1}}\times{x^u}}{\sum_{0 \leq u \leq (k+1), m+1|u } \begin{pmatrix} k+1 - \dfrac{um}{m+1} \\ \dfrac{u}{m+1} \end{pmatrix} (-1)^{\frac{u}{m+1}}\times{x^u}}
     $$
+
+Please be in touch: <br>
+<a href="https://www.linkedin.com/in/lucnguyen-ict/">LinkedIn</a> and email: nguyenluc5699@gmail.com
