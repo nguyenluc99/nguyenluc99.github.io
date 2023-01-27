@@ -5,6 +5,12 @@
 <head>
 <style type="text/css">.popin-overlay.hidden,.popin-global.hidden,.notification.hidden{visibility:hidden}</style>
 <style>
+.bottom-three {
+    margin-bottom: 3cm;
+}
+.bottom-two {
+    margin-bottom: 2cm;
+}
 #col-1 {
   position: relative;
   width: 70%;
@@ -28,6 +34,7 @@ body {
   padding-top: 40px;
   padding-bottom: 80px;
   padding-left: 10%;
+  margin-bottom: 3cm;
   /* padding-right: 5%; */
 }
 </style>
@@ -69,7 +76,7 @@ is="super-header" class="super-header" v-bind="header_config">
 </header>
     <div>
         <div>
-            <div id="col-1">
+            <div id="col-1" class="bottom-two">
                 <h2>About me:</h2>
                 <table>
                     <!-- <tr>
@@ -113,19 +120,21 @@ is="super-header" class="super-header" v-bind="header_config">
         </div>
 
         <div style="padding-right: 10%;">
-            <h2>My current research:</h2> 
-            Hey there, I am Luc, a computer science undergraduate of Hanoi University of Science and Technology.<br>
-            <p>
-                My Bachelor thesis's title is 
-                <p style="font-style: italic;">
-                    &emsp;Applications of generating function with decomposition methods to enumerate locally-constrained de Bruijn and Dyck languages
+            <div class="bottom-two">
+                <h2>My current research:</h2>
+                Hey there, I am Luc, a computer science undergraduate of Hanoi University of Science and Technology.<br>
+                <p>
+                    My Bachelor thesis's title is
+                    <p style="font-style: italic;">
+                        <!-- &emsp;Applications of generating function with decomposition methods to enumerate locally-constrained de Bruijn and Dyck languages -->
+                        &emsp;Enumerative Coding Techniques with Applications in Constrained Systems.
+                    </p>
                 </p>
-            </p>
-            My working interest is the intersection of Combinatorial Mathematics and Computer Science and Graph Theory, which focuses on many optimization problems.
+                My working interest is the intersection of Combinatorial Mathematics and Computer Science and Graph Theory, which focuses on many optimization problems.
 
-            I am working in Information Theory field. One of my research interest is about Constrained system. I am currently working with two main enumerating problems:
-
-            <div>
+                I am working in Information Theory field. One of my research interest is about Constrained system. I am currently working with two main enumerating problems:
+            </div>
+            <div class="bottom-two">
                 <ul>
                     <li>Enumerate $(b,k)$ locally-constrained code using generating function <b>(In preparation of publication)</b>. 
                         <ul>
@@ -155,69 +164,79 @@ is="super-header" class="super-header" v-bind="header_config">
                 </ul>
             </div>
 
-            <div id="col-1" style="width: 100%;">
-                <h2>My background:</h2> 
-                <h3>Education</h3>
-                <table>
-                    <!-- <tr>
-                    <th>Company</th>
-                    <th>Contact</th>
-                    <th>Country</th>
-                    </tr> -->
-                    <tr>
-                    <td>2017 - Present&emsp;&emsp;</td>
-                    <td>Computer Science, Hanoi University of Science and Technology</td>
-                    <!-- <td>Germany</td> -->
-                    </tr>
-                    <tr>
-                    <td>September 2020 - January 2021&emsp;&emsp;</td>
-                    <td>Computer Science, Uppsala University</td>
-                    <!-- <td>Mexico</td> -->
-                    </tr>
-                </table>
-                <h3>Working experiences</h3>
-                <table>
-                    <tr>
-                    <th>Duration</th>
-                    <th>Title</th>
-                    <th>Company</th>
-                    </tr>
-                    <tr>
-                    <td>Apr 2022 - Present&emsp;&emsp;</td>
-                    <td>C/C++ Software Engineer OJT&emsp;&emsp;</td>
-                    <td>Toshiba Software Development Vietnam (TSDV)</td>
-                    </tr>
-                    <tr>
-                    <td>Mar 2021 - Sep 2021&emsp;&emsp;</td>
-                    <td>Machine Learning Engineer&emsp;&emsp;</td>
-                    <td>Eastgate Software JSC</td>
-                    </tr>
-                    <tr>
-                    <td>Sep 2019 – Feb 2020&emsp;&emsp;</td>
-                    <td>Machine Learning Engineer&emsp;&emsp;</td>
-                    <td>FAMILY TECHNOLOGY COMPANY LIMITED</td>
-                    </tr>
-                </table>
+            <div>
+                <div id="col-1" style="width: 100%;">
+                    <h2>My background:</h2>
+                    <h3>Education</h3>
+                    <table>
+                        <!-- <tr>
+                        <th>Company</th>
+                        <th>Contact</th>
+                        <th>Country</th>
+                        </tr> -->
+                        <tr>
+                        <td>2017 - Present&emsp;&emsp;</td>
+                        <td>Computer Science, Hanoi University of Science and Technology</td>
+                        <!-- <td>Germany</td> -->
+                        </tr>
+                        <tr>
+                        <td>September 2020 - January 2021&emsp;&emsp;</td>
+                        <td>Computer Science, Uppsala University</td>
+                        <!-- <td>Mexico</td> -->
+                        </tr>
+                    </table>
+                </div>
 
-                <h2>Interests:</h2> 
-                <table>
-                    <tr>
-                        <td> - </td>
-                        <td>Information theory and constrained code research</td>
-                    </tr>
-                    <tr>
-                        <td> - </td>
-                        <td>Learn mathematics, combinatorics and graph theory</td>
-                    </tr>
-                    <tr>
-                        <td> - </td>
-                        <td>Traveling, photography, piano, reading book, helping people</td>
-                    </tr>
-                    <tr>
-                        <td> - </td>
-                        <td>Connect with people from other cultures and the world</td>
-                    </tr>
-                </table>
+                <div class="bottom-two">
+                    <h3>Working experiences</h3>
+                    <table>
+                        <tr>
+                        <th>Duration</th>
+                        <th>Title</th>
+                        <th>Company</th>
+                        </tr>
+                        <tr>
+                        <td>Apr 2022 - Present&emsp;&emsp;</td>
+                        <td>C/C++ Software Engineer OJT&emsp;&emsp;</td>
+                        <td>Toshiba Software Development Vietnam (TSDV)</td>
+                        </tr>
+                        <tr>
+                        <td>Mar 2021 - Sep 2021&emsp;&emsp;</td>
+                        <td>Machine Learning Engineer&emsp;&emsp;</td>
+                        <td>Eastgate Software JSC</td>
+                        </tr>
+                        <tr>
+                        <td>Sep 2019 – Feb 2020&emsp;&emsp;</td>
+                        <td>Machine Learning Engineer&emsp;&emsp;</td>
+                        <td>FAMILY TECHNOLOGY COMPANY LIMITED</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="bottom-two">
+                    <h2>Interests:</h2>
+                    <table>
+                        <tr>
+                            <td> - </td>
+                            <td>Information theory and constrained code research</td>
+                        </tr>
+                        <tr>
+                            <td> - </td>
+                            <td>Learn mathematics, combinatorics and graph theory</td>
+                        </tr>
+                        <tr>
+                            <td> - </td>
+                            <td>Traveling, photography, piano, reading book, helping people</td>
+                        </tr>
+                        <tr>
+                            <td> - </td>
+                            <td>Connect with people from other cultures and the world</td>
+                        </tr>
+                        <tr>
+                            <td> - </td>
+                            <td>Cycling and minimalism</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
